@@ -64,8 +64,8 @@ When(/^I enter my hours$/) do
   @browser.text_field(:id => 'B22_1_2').set '8'
   @browser.text_field(:id => 'B22_1_3').set '8'
   @browser.text_field(:id => 'B22_1_4').set '8'
-  @browser.text_field(:id => 'B22_1_5').when_present.set '8'
-  @browser.text_field(:id => 'B22_1_6').when_present.set '8'
+  @browser.text_field(:id => 'B22_1_5').set '8'
+  @browser.text_field(:id => 'B22_1_6').set '8'
 end
 
 
