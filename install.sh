@@ -14,4 +14,4 @@ gem install cucumber --no-ri --no-rdoc
 gem install nokogiri --no-ri --no-rdoc
 
 # download chromedriver http://chromedriver.storage.googleapis.com/index.html latest version. Put on path, ie: /usr/local/bin
-
+# modify the values in regular.sh to make them yours
