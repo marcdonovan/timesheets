@@ -16,10 +16,10 @@ Feature: Everybody loves to fill out timesheets!
 	And I follow "Time"
 	And I follow "Create Timecard"
 	Then The screen should say "Time Entry"
-	When I enter my project
+	When I enter my hours
+	And I enter my project
 	And I enter my task
 	And I enter my type
-	And I enter my hours
 	And I click Continue
 	And I click Submit
 	Then The screen should say "submitted successfully"

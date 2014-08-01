@@ -50,14 +50,14 @@ end
 
 When(/^I enter my task$/) do
   @browser.text_field(:id => 'A241N1display').when_present.set ENV['TASK']
-  sleep(10)
+  sleep(5)
 end
 
 When(/^I enter my type$/) do
   @browser.text_field(:id => 'A251N1display').when_present.set ENV['TYPE']
-  sleep(7)
-  el = @browser.table(:id => 'lovSuggestTable').when_present
-  el.u(:text => ENV['TYPE']).click
+  sleep(2)
+#  el = @browser.table(:id => 'lovSuggestTable').when_present
+ # el.u(:text => ENV['TYPE']).click
 end
 
 When(/^I enter my hours$/) do
@@ -65,7 +65,7 @@ When(/^I enter my hours$/) do
   @browser.text_field(:id => 'B22_1_3').set '8'
   @browser.text_field(:id => 'B22_1_4').set '8'
   @browser.text_field(:id => 'B22_1_5').when_present.set '8'
-#  @browser.text_field(:id => 'B22_1_6').when_present.set '8'
+  @browser.text_field(:id => 'B22_1_6').when_present.set '8'
 end
 
 
