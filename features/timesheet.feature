@@ -1,8 +1,10 @@
 Feature: Everybody loves to fill out timesheets!
 
-  Every Friday, when we have better things to do, our boss tells us we have to stop coding and fill out the stupid
-  timesheets so that the Finance people don't yell. This system is designed to automate that so that everyone
-  is happy-happy.
+  Every Friday, when we have better things to do,
+  our boss tells us we have to stop coding and fill
+  out the stupid timesheets so that the Finance people
+  don't yell. This system is designed to automate that
+  so that everyone is happy-happy.
 
   Scenario: Enter regular timesheet
 	Given I navigate to the Oracle Login

@@ -43,7 +43,7 @@ end
 
 When(/^I enter my project$/) do
   @browser.text_field(:id => 'A231N1display').when_present.set ENV['PROJECT']
-  sleep(8)
+  sleep(10)
   el = @browser.table(:id => 'lovSuggestTable').when_present
   el.u(:text => ENV['PROJECT']).click
 end
